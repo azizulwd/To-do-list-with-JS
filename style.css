@@ -8,3 +8,27 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, orange, red);
+    padding: 10px;
+}
+.to-do-app{
+    width: 100%;
+    max-width: 540px;
+    background: #fff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+.to-do-app h2{
+    color: #002765;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.to-do-app h2 img{
+    width: 30px;
+    margin-left: 30px;
+}
